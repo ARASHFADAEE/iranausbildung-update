@@ -1,0 +1,379 @@
+    @font-face {
+        font-family: B-yekan;
+        src: url('../fonts-icons/Fonts/Yekan.ttf')
+    }
+
+    .page-content-title {
+        color: var(--main-blue);
+        text-align: center;
+        font-family: B-yekan;
+        font-size: 42px;
+        font-weight: 650;
+    }
+
+    .FormContainer {
+        box-shadow: 0px 1px 20px 1px var(--main-shadow);
+        border-radius: 43px;
+        height: calc(650px   - 15px);
+        background-color: #fff;
+    }
+    
+   
+
+    .user-form {
+        padding: 20px;
+    }
+
+    .form-item,
+    .form-item-footer {
+        padding: 20px;
+    }
+
+    .form-item-footer {
+        width: 90%;
+    }
+
+    .form-item label {
+        width: 100%;
+        padding: 2px;
+        font-family: B-yekan;
+        font: 12px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+     /* .form-item li{
+        font-family: B-yekan;
+        font: 24px;
+        font-weight: 600;
+     } */
+
+    .form-item input,
+    .form-item select,
+    .offkey,
+    .searchBox input ,
+    .contact-info {
+        width: 80%;
+        height: 42px;
+        border-radius: 18px;
+        font-family: B-yekan;
+        border: none;
+        background-color: var(--input-background);
+        font-size: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .searchBox input {
+        border-radius: 10px;
+
+    }
+
+    .searchBox input::placeholder {
+        font-family: B-yekan;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .LoginBtn button {
+        border: 1px solid #00000013;
+        padding: 8px;
+        border-radius: 12px;
+        background: #f8f6f6;
+        font-family: B-yekan;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    
+    .form-item [type=file] {
+        padding-right: 0px;
+        padding-left: 0px;
+
+
+    }
+
+    /* if you need any items in li here's the code for them (unOrdered list !) */
+    .form-item li {
+        list-style-type: disc;
+        margin: 13px;
+        font-family: B-yekan;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    /* this is the price and submit section of many pages  */
+    .offkey {
+        width: 60%;
+        height: 50px;
+        border-radius: 12px;
+
+    }
+
+    .offkey::placeholder {
+        color: #000;
+    }
+
+    .off-btn {
+
+        width: 40%;
+        height: 50px;
+        border-radius: 30px;
+        margin-right: -12px;
+    }
+
+    .price-title {
+        font-family: B-yekan;
+        font-size: 28px;
+        font-weight: 500;
+        color: var(--main-blue);
+    }
+
+    /* for File Inpuuts we need some custom css that Starts from here  */
+
+    .input-file-custom input {
+        background: none;
+        height: 60px;
+
+    }
+
+    .input-file-custom input::-webkit-file-upload-button {
+        visibility: hidden;
+    }
+
+    .input-file-custom input::before {
+        content: attr(placeholder);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: block;
+        color: #1b17179d;
+        background: #57abfa52;
+        /* border: 1px   dashed #35489e6e; */
+        border-radius: 3px;
+        padding: 15px;
+        outline: none;
+        white-space: nowrap;
+        /* -webkit-user-select: none; */
+        cursor: pointer;
+        font-family: B-yekan;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .input-file-custom input:active::before {
+        background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+    }
+
+
+    /* start of article tag in the description blow  */
+    .article-part p {
+        color: #000000e0;
+        line-height: 2.5rem;
+        font-family: B-yekan;
+        font-size: 19px;
+        font-weight: 545;
+    }
+
+    /* Start of the contetn box  */
+    .article-content-box{
+        
+        height: 300px;
+        margin-top: 25px;
+    }
+    #grownUp{
+        flex-grow: 2;
+    }
+
+    .content-box{
+        box-shadow: -8px 10px 20px 1px rgba(20, 20, 20, 0.137) ;
+        background-color: var(--article-box);
+        border-radius: 34px;
+        height: 100%;
+        margin: 20px 10px 10px 20px ;
+        /* margin-top:30px ; */
+        padding: 30px;
+    }
+
+    .title-content{
+        
+        font-family: B-yekan;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .content-of-box p{
+    color: #000000b4;
+    font-family: B-yekan;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+   
+    }
+
+    .article-counter{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Start the navbar (menu and header ) from here  */
+    .navbar {
+        
+        box-shadow: 0px 1px 20px 1px var(--main-shadow);
+        height: 90px;
+        position: fixed ;
+        top: 0;
+        background-color: #fff;
+    }
+
+    .menu-nav li a {
+        color: #000;
+        font-family: B-yekan;
+        
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 5px;
+
+    }
+
+
+    .menu-nav li{
+        list-style-type: none;
+    }
+    
+    .top-gap-top {
+            margin-top: 140px;
+    }
+    
+    .top-gap-bottom{
+
+            margin-top: 100px;
+    }
+
+    /* start of hover effect in the menu  */
+
+    .menu-nav li a {
+        transition: all linear 5s;
+        border-bottom: 0 solid #00000000;
+        font-family: B-yekan;
+        font-size: 20px;
+        position: relative;
+        padding: 4px 0;
+        font-family: Lato, sans-serif;
+        color: #0f1d20;
+        text-transform: uppercase;
+        transition: 0.5s;
+
+    }
+
+    .menu-nav li a::after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #3498db;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s;
+    }
+
+
+    .menu-nav li a:hover {
+        color: #95a5a6;
+    }
+
+    .menu-nav li a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    /* the footer part started from now !  */
+
+    .social-media {
+        font-family:B-yekan;
+        padding: 60px;
+        height: 300px;
+        background: blue;
+    }
+    .social-media h3{
+        font-family:  B-yekan;
+        font-size: 35px;
+        color: #f9f9f9;
+    }
+    .social-media p{
+        font-family: B-yekan;
+        font-size: 25px;
+        color: #f9f9f9;
+    }
+    .social-box{
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+        margin: 5px;
+        background: #fff;
+        border-radius: 15px;
+    }
+    /* from this part blow ,  codes blong the Footer  */
+
+    .page-footer {
+        height: 550px;
+        background-image: url('../images/bg.png');
+        padding:  0 130px 0 130px;
+    }
+
+    .footer-content ul li a{
+        color: var(--main-font-color);
+        text-decoration: none;
+        font-family: B-yekan;
+        font-size: 28px;
+        font-weight: 600;
+        transition: all linear .2s;
+    }
+
+    .footer-content ul li{
+        list-style-type: none;
+        line-height: 56px;
+    }
+
+    .footer-content ul li a:hover {
+        margin-right: 8px;
+    }
+
+    .footer-content{
+        height: 60%;
+        padding-top: 116px;
+    }
+
+    .copy-right{
+        height: 74px;
+        margin-top: 10%;
+    }
+    .copy-right p {
+        font-family: B-yekan;
+        font-size: 24px;
+    }
+
+    /* the about us section stareted  */
+
+    .description-about-us{
+        font-family: B-yekan;
+        font-size: 28px;
+        font-weight: 500;
+        color: #222222d8;
+    }
+
+    .about-us{
+        padding: 100px;
+    }
+
+    .swiper {
+        width: 600px;
+        height: 300px;
+      }
+

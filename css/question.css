@@ -1,0 +1,62 @@
+.accardion-container {
+    background: #000;
+}
+
+.accordion-item {
+    border-radius: 42px !important;
+}
+
+
+.accordion-title {
+    height: 106px;
+    background: #fff !important;
+    border-radius: 42px !important;
+    border: none !important;
+    outline: none;
+}
+
+.accordion-title:focus:not(:focus-visible) {
+    outline: none !important;
+
+}
+
+.collapseli::marker {
+    margin-right: 30px;
+    list-style: disc upper-alpha var(--main-blue);
+    font-size: 40px;
+
+}
+
+.accordion-button li {
+    margin-right: 50px;
+    font-family: B-yekan;
+    font-size: 26px;
+   
+}
+
+.accordion-button li{
+
+}
+
+.accordion-collapse p{
+font-family: B-yekan;
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+color: #000000b4;
+}
+
+.collapse {
+    border-radius: 42px;
+}
+
+.accordion-body {
+    height: 100%;
+    border-radius: 42px;
+}
+
+body {
+    background: url('../images/pngwing.com.png') no-repeat ;
+    background-position: 100% 50% ;
+    background-size: 26%;
+}
